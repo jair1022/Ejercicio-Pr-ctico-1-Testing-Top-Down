@@ -1,0 +1,37 @@
+# =========================================
+# Ignorar entornos virtuales
+venv/
+.env/
+
+# =========================================
+# Ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================================
+# Ignorar archivos de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================================
+# Ignorar configuraciones de VSCode
+.vscode/
+.idea/
+
+# =========================================
+# Ignorar archivos de sistema (Windows / Mac)
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Ignorar logs
+*.log
+
+# =========================================
+# Ignorar paquetes y distribuciones
+*.egg-info/
+dist/
+build/
